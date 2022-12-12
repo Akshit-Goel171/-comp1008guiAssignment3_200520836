@@ -241,6 +241,49 @@ public class HelloController {
                 errorMessage.setText("CONGRATS.... FULL ATTENDANCE TODAY");
             }
 
+            if(student1.getText() == student2.getText() || student1.getText() == student3.getText() ||
+                    student1.getText() == student4.getText() || student1.getText() == student5.getText() ||
+                    student1.getText() == student6.getText() || student1.getText() == student7.getText() ||
+                    student1.getText() == student8.getText() || student1.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if( student2.getText() == student3.getText() ||
+                    student2.getText() == student4.getText() || student2.getText() == student5.getText() ||
+                    student2.getText() == student6.getText() || student2.getText() == student7.getText() ||
+                    student2.getText() == student8.getText() || student2.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if(student3.getText() == student4.getText() || student3.getText() == student5.getText() ||
+                    student3.getText() == student6.getText() || student3.getText() == student7.getText() ||
+                    student3.getText() == student8.getText() || student3.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if( student4.getText() == student5.getText() ||
+                    student4.getText() == student6.getText() || student4.getText() == student7.getText() ||
+                    student4.getText() == student8.getText() || student4.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if(student5.getText() == student6.getText() || student5.getText() == student7.getText() ||
+                    student5.getText() == student8.getText() || student5.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if(student6.getText() == student7.getText() ||
+                    student6.getText() == student8.getText() || student6.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if(student7.getText() == student8.getText() || student7.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
+
+            if( student8.getText() == student9.getText() ){
+                errorMessage.setText("NAME ALREADY CHOSEN");
+            }
 
             used = rand;
             lists.remove(rand);
